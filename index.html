@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Js Calculator</title>
+</head>
+<body>
+<h1>Taffs Calculator</h1>
+
+  <div class="Alpha-container">
+    <input type="text" id="output" readonly>
+
+    <div class="container-grid"></div>
+    <button class="keys" type="Button" onclick="clearSum()">Clear</button>
+    <button class="keys" type="Button" onclick="delSum()">Del</button>
+    
+    <div class="numbers1"></div>
+    <!-- the words intakecalculate is giving the buttons a variable name so that
+    it canbe used in js to be on the display output and for calculation purposes -->
+    <button class="btn" onclick="intakecalculate(1)">1</button>
+    <button class="btn" onclick="intakecalculate(2)">2</button>
+    <button class="btn" onclick="intakecalculate(3)">3</button>
+    <button class="btn" class="divide" onclick="intakecalculate('/')">/</button>
+    
+    <div class="numbers2"></div>
+    <button class="btn" onclick="intakecalculate(4)">4</button>
+    <button class="btn" onclick="intakecalculate(5)">5</button>
+    <button class="btn" onclick="intakecalculate(6)">6</button>
+    <button class="btn" onclick="intakecalculate('*')">x</button>
+    
+    <div class="numbers3"></div>
+    <button class="btn" onclick="intakecalculate(7)">7</button>
+    <button class="btn" onclick="intakecalculate(8)">8</button>
+    <button class="btn" onclick="intakecalculate(9)">9</button>
+    <button class="btn" class="plus"onclick="intakecalculate('+')">+</button>
+    
+    <div class="Numbers4"></div>
+    <button class="btn" onclick="intakecalculate(0)">0</button>
+    <button class="btn" onclick="intakecalculate('.')">.</button>
+    <button class="btn" onclick="intakecalculate('-')">-</button>
+    <button class="equal" onclick="Result()">=</button>
+    
+    
+  </div>
+    <script src="script/code.js"></script>
+</body>
+</html>

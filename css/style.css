@@ -1,0 +1,67 @@
+
+.container-grid{
+    margin: 0.5rem;
+}
+.keys {
+    width: 6.3rem;
+}
+.btn {
+    width: 3rem;
+}
+.equal{
+border-radius: 10px;
+width: 100px;
+width: 3rem;
+}
+.plus{
+border-radius: 5px;
+    width: 20px;
+}
+.divide{
+border-radius: 5px;
+    width: 20px;
+}
+.Alpha-container{
+background-color:black;
+border-radius: 20px;
+width: 15rem;
+padding: 1rem;
+text-align: center;
+margin-top: 200px;
+margin: auto;
+}
+
+body{
+background-color: rgb(240, 165, 180);
+}
+input{
+ height: 60px;
+ border: 2px solid black;
+ border-radius: 20px ;
+ width: 200px;
+}
+button{
+border-radius: 10px;
+margin: 1px;
+padding: 7px;
+font-weight: 600;
+background-color: orange;
+}
+h1{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+button:hover{
+     background-color: rgb(255, 255, 255);
+}
+/* took from previous code @taflynnes portfolio */
+@media only screen and (max-width: 700px){
+  
+}
+
+@media only screen and (max-width: 300px){
+ body{
+  width: min-content;
+  padding: 5px;
+ }
+}
